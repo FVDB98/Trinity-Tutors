@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: "Nunito";
+}
+
+.header-container {
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    background-color: #03989e;
+    opacity: 0.7;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: grey;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding-top: 60px;
+}
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.open-button {
+    position: fixed;  
+    right: 0;
+    padding: 10px;
+}
+
+.logo-container {
+    padding-top: 50px;
+}
+
+.gradient {
+    background: linear-gradient(90deg, rgba(3,152,158,1) 2%, rgba(255,255,255,1) 99%);
+    height: 1px;
+}
+
+.logo {
+    width: 100%;
+    padding: 10px;
+}
+
+.information-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.information-container p {
+    line-height: 1rem;
+}
+
+.sub-header {
+    text-decoration: underline;
+}
+
+.contact {
+
+}
+
+.location {
+
+}
+
+.map {
+    height: 300px;
+    padding: 10px;
+}
+
