@@ -51,8 +51,14 @@ body {
     padding: 10px;
 }
 
+.fa-bars {
+    color: mintcream;
+}
+
 .logo-container {
     padding-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .gradient {
@@ -63,20 +69,52 @@ body {
 .logo {
     width: 100%;
     padding: 10px;
+    max-width: 400px;
+    justify-content: center;
+}
+
+.home-box {
+    background-color: #03989e;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.6);
 }
 
 .information-container {
     display: flex;
     flex-direction: column;
     text-align: center;
+    max-width: 1000px;
 }
 
 .information-container p {
     line-height: 1rem;
 }
 
+.fa-address-book {
+    color: mintcream;
+}
+
+.fa-location-dot {
+    color: mintcream;
+}
+
+.fa-magnifying-glass {
+    color: mintcream;
+}
+
 .sub-header {
     text-decoration: underline;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .contact {
@@ -88,7 +126,22 @@ body {
 }
 
 .map {
-    height: 300px;
-    padding: 10px;
+    height: 400px;
+    box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.6);
 }
 
+@media screen and (min-width: 750px){
+    .information-container {
+        flex-direction: row;
+        justify-content: center;
+        gap: 5rem;
+        margin: 0 auto;
+    }
+    .home-box {
+        box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.6);
+    }
+    .map {
+        max-height: 600px;
+        box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.6);
+    }
+}
