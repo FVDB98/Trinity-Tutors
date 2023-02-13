@@ -79,6 +79,8 @@ body {
 .gradient {
     background: #03989e;
     height: 1px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .logo {
@@ -89,7 +91,7 @@ body {
 }
 
 .home-box {
-    background-color: #03989e;
+    background-color: rgba(3, 152, 158, 0.9);
     max-width: 1200px;
     margin: auto;
     padding: 20px;
@@ -107,20 +109,30 @@ body {
     line-height: 1rem;
 }
 
+.email {
+    color: black;
+}
+
+.email:hover {
+    color: white;
+}
+
 .fa-address-book {
     color: mintcream;
+    padding-left: 5px;
 }
 
 .fa-location-dot {
     color: mintcream;
+    padding-left: 5px;
 }
 
 .fa-magnifying-glass {
     color: mintcream;
+    padding-left: 5px;
 }
 
 .sub-header {
-    text-decoration: underline;
 }
 
 .map-container {
@@ -143,36 +155,124 @@ body {
 .map {
     height: 400px;
     box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.6);
+    border-radius: 5px;
+}
+
+.tutoring-section {
+
+}
+
+.tutoring-title {
+    text-align: center;
+}
+
+.tutoring-title h2 {
+    margin-bottom: 0;
+}
+
+.tutoring-box {
+    display: flex;
+    justify-content: center;
+}
+
+.tutoring-type h4 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#residential {
+    display: flex;
+    justify-content: center;
+}
+
+#residential h4 {
+    text-align: center;
+    margin-bottom: 0;
 }
 
 #testimonials {
     display: flex;
     flex-direction: column;
     text-align: center;
+    max-width: 1200px;
+    margin: auto;
 }
 
-.test-container {
-    display: flex;
-    padding: 10px;
+.testimonials-body {
+    padding: 10px 0;
 }
 
-.test-box {
+.testimonials-container {
+    padding: 0 20px;
+    text-align: left;
+}
+
+.programme-title {
+    text-align: center;
+}
+
+.days h4 {
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 0 10px;
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+}
+
+.programme-container {
     display: flex;
     flex-direction: column;
-    border: 1px solid;
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.6);
 }
 
-.test-box h4 {
+.programme-content {
+    padding: 0 10px;
     text-align: center;
-    margin: 0;
+    max-width: 300px;
+    margin: auto;
 }
 
-.test-box p {
-    text-align: left;
+.programme-more {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+#york {
+}
+
+.york-todo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.york-container {
+    padding: 0 10px;
+}
+
+.york-container ul {
     line-height: 1.5rem;
+}
+
+.york-container a {
+    text-decoration: underline;
+    color: black;
+}
+
+.york-container a:hover {
+    color: #03989e;
+}
+
+
+@media screen and (min-width: 600px){
+    .programme-container {
+        flex-direction: row;
+        justify-content: center;
+        max-width: 1200px;
+        margin: auto;
+    }
 }
 
 @media screen and (min-width: 750px){

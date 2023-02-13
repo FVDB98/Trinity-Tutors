@@ -12,17 +12,17 @@
         <script src="https://kit.fontawesome.com/a4c76bf040.js" crossorigin="anonymous"></script>
     </head>
     <body>
-            <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa-solid fa-xmark fa-xl"></i></a>
-                <a href="#">Tutoring</a>
-                <a href="#">Residential</a>
-                <a href="#">Testimonials</a>
-                <a href="#">York</a>
-                <a href="#">Certifications</a>
-                <a href="#">Programmes</a>
-                <a href="#">Calender</a>
-                <a href="#">Gallery</a>
-            </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa-solid fa-xmark fa-xl"></i></a>
+            <a href="#">Tutoring</a>
+            <a href="#">Residential</a>
+            <a href="#">Testimonials</a>
+            <a href="#">York</a>
+            <a href="#">Certifications</a>
+            <a href="#">Programmes</a>
+            <a href="#">Calender</a>
+            <a href="#">Gallery</a>
+        </div>
         <div class="header-container">
             <span class="open-button" style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fa-solid fa-bars fa-xl"></i></span>
         </div>
@@ -32,13 +32,13 @@
         <section class="home-box">
             <section class="information-container">
                 <article class="contact">
-                    <h3 class="sub-header">Contact <i class="fa-regular fa-address-book"></i></h3>
+                    <h3 class="sub-header">Contact<i class="fa-regular fa-address-book"></i></h3>
                     <p>+44 1904 400583</p>
                     <p>+44 7761 288356</p>
-                    <p><a href="mailto:trinityhousetutors@gmail.com">trinityhousetutors@gmail.com</a></p>
+                    <p><a class="email" href="mailto:trinityhousetutors@gmail.com">trinityhousetutors@gmail.com</a></p>
                 </article>
                 <article class="location">
-                    <h3 class="sub-header">Location <i class="fa-solid fa-location-dot"></i></h3>
+                    <h3 class="sub-header">Location<i class="fa-solid fa-location-dot"></i></h3>
                     <p>Trinity House</p>
                     <p>Trinity Meadows</p>
                     <p>Stockton on the Forest</p>
@@ -47,64 +47,155 @@
                 </article>
             </section>
             <article class="map-container">
-                <h4>Find us on Google Maps <i class="fa-solid fa-magnifying-glass"></i></h4>
+                <h4>Find us on Google Maps<i class="fa-solid fa-magnifying-glass"></i></h4>
                 <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2345.3902231251986!2d-1.0020166840048186!3d53.99584883356259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48792dd84fcca90b%3A0xa1378d01e92bed18!2sTrinity%20Meadows%2C%20Stockton%20on%20the%20Forest%2C%20York!5e0!3m2!1sen!2suk!4v1675449480175!5m2!1sen!2suk" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </article>
         </section>
-        <section id="testimonials">
+
+        <section id="tutoring-section">
+            <div class="tutoring-title">
+                <h2>Tutoring</h2>
+            </div>
+            <section class="tutoring-box">
+                <article class="tutoring-type">
+                    <h4>In Person</h4>
+                    <ul>
+                        <li>One on one</li>
+                        <li>Private groups</li>
+                    </ul>
+                </article>
+                <article class="tutoring-type">
+                    <h4>Online</h4>
+                    <ul>
+                        <li>Individuals</li>
+                        <li>Private Groups</li>
+                    </ul>
+                </article>
+            </section>
+        </section>
+       
+        <section id="residential">
             <article>
-                <h2>Testimonials</h2>
-                <h3>See what people have said:</h3>
+                <h4>Residential</h4>
+                <ul>
+                    <li>Total immersion</li>
+                    <li>Homestay</li>
+                </ul>
             </article>
-            <section class="test-container">
-                <section class="test-box">
-                    <article class="test-name">
-                        <h4>Roseli, Brazil</h4>
-                    </article>
-                    <article class="test-body">
-                        <p>"Moira is not only an excellent teacher, but also is a person you can talk to as a friend. She's nice, kind, patient and she is always happy to help. It's a pleasure to have her as a teacher!"</p>
-                    </article>
-                </section>
+        </section>
+        <div class="gradient"></div>
+        <section id="testimonials">
+            <div class="testimonials-title">
+                <h2>Testimonials</h2>
+            </div>
+            <section class="testimonials-container">
+                <article class="testimonials-body">
+                    <div class="testimonials-name">
+                        <h4>Roseli, Brazil:</h4>
+                        <div class="testimonials-content">
+                            <p>"Moira is not only an excellent teacher, but also is a person you can talk to as a friend. She's nice, kind, patient and she is always happy to help. It's a pleasure to have her as a teacher!"</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="testimonials-body">
+                    <div class="testimonials-name">
+                        <h4>Natacha, Spain:</h4>
+                        <div class="testimonials-content">
+                            <p>"I promise Moira's lessons are very enjoyable, helpful and varied. What I like most about Moira as a teacher is her enthusiasm to teach at the same time being supportive to cover my learning needs. I can tell she makes a big effort in order for her students to understand the contents through learning by doing. I think that method is the clue to keep students motivated to continue taking her classes. Strongly recommended!"</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="testimonials-body">
+                    <div class="testimonials-name">
+                        <h4>Cristina, Spain:</h4>
+                        <div class="testimonials-content">
+                            <p>"I can assure anyone that Moira is a really good teacher, always willing to help her students. She is kind and attentive when needed. She always makes the lessons as enjoyable as possible, using a wide range of activities which suit the way I learn. I highly recommend her!!!"</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="testimonials-body">
+                    <div class="testimonials-name">
+                        <h4>Beatriz, Spain:</h4>
+                        <div class="testimonials-content">
+                            <p>"I really liked Moira's lessons because of they were funny and useful. Moira is friendly and kind. She speaks clearly, so it is easy understand each word in order to repeat them to learn properly the pronunciation."</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="testimonials-body">
+                    <div class="testimonials-name">
+                        <h4>Sandrine, France:</h4>
+                        <div class="testimonials-content">
+                            <p>I attend online classes taught by Moira, and I can testify that she is an excellent teacher. Before starting I have to admit that I was not very enthusiastic because my level of English is very low and I did not feel very comfortable because I have a sense of ridicule that is too high. But from the first moment I felt very comforted by her, because she is a very empathetic and patient teacher. And above all that she really cares about making herself understood and carrying out tasks to facilitate learning. And very important too, she is so polite, nice and kind. </p>
+                        </div>
+                    </div>
+                </article>
             </section>
-            <section class="test-container">
-                <section class="test-box">
-                    <article class="test-name">
-                        <h4>Natacha, Spain</h4>
+        </section>
+        <div class="gradient"></div>
+        <section id="programme">
+            <div class="programme-title">
+                <h2>Programme</h2>
+            </div>
+            <section class="programme-container">
+                <div class="days">
+                    <h4>Weekdays - Monday to Friday</h4>
+                    <article class="programme-content">
+                        <p>Breakfast:       8:15 - 8:45am</p>
+                        <p>Lessons:         9am - 12:30pm, inlcuding short break</p>
+                        <p>Lunch:           1pm</p>
+                        <p>Afternoon:       2pm onwards</p>
+                        <p>5:30pm onwards:  Free time (supervised)</p>
+                        <p>Dinner:          7-8pm</p>
                     </article>
-                    <article class="test-body">
-                        <p>"I promise Moira's lessons are very enjoyable, helpful and varied. What I like most about Moira as a teacher is her enthusiasm to teach at the same time being supportive to cover my learning needs. I can tell she makes a big effort in order for her students to understand the contents through learning by doing. I think that method is the clue to keep students motivated to continue taking her classes. Strongly recommended!"</p>
+                </div>
+                <div class="days">
+                    <h4>Weekends - Saturday and Sunday</h4>
+                    <article class="programme-content">
+                        <p>Weekend cooked brunch 11am</p>
+                        <p>Whole day excursion or activity inlcuding some free time (always supervised)</p>
+                        <p>Dinner 6pm</p>
                     </article>
-                </section>
             </section>
-            <section class="test-container">
-                <section class="test-box">
-                    <article class="test-name">
-                        <h4>Cristina, Spain</h4>
+            <article class="programme-more">
+                <p>In broad terms, our home is in the village of Stockton on the Forest, about 6km from York city centre.  It takes less than 15 minutes to be in the heart of the city.  We have 6 bedrooms available for students, including singles, a twin, a double and a king sized room.  All students have desks in their rooms and plenty of hanging/storage space. Our home is detached with a beautiful garden.</p>
+                <p>In terms of meals, we offer a continental breakfast during the week and a cooked "brunch" at weekends.
+                    Weekday lunches are one or two courses, and always freshly prepared, healthy and nutritious.</p>
+                <p>Weekday dinners are three courses.
+                    Weekend dinners are three courses and, of course, there is always a traditional Sunday roast dinner!
+                    All dietary requirements are catered for.  There is always a supply of fresh fruit and other snacks for students to help themselves to, including fruit juice and other soft drinks.
+                </p>
                     </article>
-                    <article class="test-body">
-                        <p>"I can assure anyone that Moira is a really good teacher, always willing to help her students. She is kind and attentive when needed. She always makes the lessons as enjoyable as possible, using a wide range of activities which suit the way I learn. I highly recommend her!!!"</p>
-                    </article>
-                </section>
-            </section>
-            <section class="test-container">
-                <section class="test-box">
-                    <article class="test-name">
-                        <h4>Beatriz, Spain</h4>
-                    </article>
-                    <article class="test-body">
-                        <p>"I really liked Moira's lessons because of they were funny and useful. Moira is friendly and kind. She speaks clearly, so it is easy understand each word in order to repeat them to learn properly the pronunciation."</p>
-                    </article>
-                </section>
-            </section>
-            <section class="test-container">
-                <section class="test-box">
-                    <article class="test-name">
-                        <h4>Sandrine, France</h4>
-                    </article>
-                    <article class="test-body">
-                        <p>"I attend online classes taught by Moira, and I can testify that she is an excellent teacher. Before starting I have to admit that I was not very enthusiastic because my level of English is very low and I did not feel very comfortable because I have a sense of ridicule that is too high. But from the first moment I felt very comforted by her, because she is a very empathetic and patient teacher. And above all that she really cares about making herself understood and carrying out tasks to facilitate learning. And very important too, she is so polite, nice and kind."</p>
-                    </article>
-                </section>
+                </div>
+        </section>  
+        <div class="gradient"></div>
+        <section id="york">
+            <section class="york-todo">
+                <h2>York and what to do:</h2>
+                <article class='york-container'>
+                    Some of the local activities and excursions include:
+                    <nav>
+                        <ul>
+                            <li><a href="https://www.castlehoward.co.uk/" target="_blank">Castle Howard</a></li>
+                            <li><a href="https://www.yorktheatreroyal.co.uk/" target="_blank">York Theatre Royal</a></li>
+                            <li>Yorkshire coastline resorts - <span><a href="https://www.visitscarborough.com/" target="_blank">Scarborough</a></span>, <span><a href="https://www.visitwhitby.com/" target="_blank">Whitby</a></span>, <span><a href="https://www.discoveryorkshirecoast.com/filey" target="_blank">Filey</a></span></li>
+                            <li><a href="https://www.yorkshiredales.org.uk/" target="_blank">The Yorkshire Dales</a></li>
+                            <li><a href="https://www.tripadvisor.co.uk/Tourism-g186394-Newcastle_upon_Tyne_Tyne_and_Wear_England-Vacations.html" target="_blank">Newcastle upon Tyne</a></li>
+                            <li><a href="https://www.jorvikvikingcentre.co.uk/" target="_blank">Jorvik Viking Museum</a></li>
+                            <li><a href="https://www.yorkcastlemuseum.org.uk/" target="_blank">Castle Museum</a></li>
+                            <li><a href="https://www.railwaymuseum.org.uk/" target="_blank">National Railway Museum</a></li>
+                            <li><a href="https://yorkminster.org/" target="_blank">York Minster</a></li>
+                            <li><a href="https://www.visityork.org/business-directory/category/tours-guides/ghost-walks-tours" target="_blank">Ghost walk</a></li>
+                            <li><a href="https://www.yorkschocolatestory.com/" target="_blank">York's Chocolate Story</a></li>
+                            <li><a href="https://www.tripadvisor.co.uk/Attractions-g186346-Activities-c56-t272-York_North_Yorkshire_England.html" target="_blank">Pottery painting</a></li>
+                            <li><a href="https://www.visityork.org/business-directory/category/things-to-do/tours-guides" target="_blank">Guided walking tours of York</a></li>
+                            <li><a href="https://www.tripadvisor.co.uk/Attractions-g186346-Activities-c56-t97-York_North_Yorkshire_England.html" target="_blank">Cinema</a></li>
+                            <li>Shopping - York city centre and <span><a href="https://www.mcarthurglen.com/en/outlets/uk/designer-outlet-york/" target="_blank">Designer Outlet</a></span></li>
+                            <li><a href="https://www.tenpin.co.uk/our-locations/york/" target="_blank">Bowling</a></li>
+                            <li><a href="https://www.visityork.org/business-directory/city-cruises-york-sightseeing-cruises" target="_blank">York River Cruises</a></li>
+                            <li><a href="https://www.yorkshiremuseum.org.uk/" target="_blank">Yorkshire Museum</a></li>
+                        </ul>
+                    </nav>
+                </article>
             </section>
         </section>
     </body>
