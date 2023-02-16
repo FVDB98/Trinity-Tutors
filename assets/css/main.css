@@ -7,7 +7,7 @@ html {
     scroll-behavior: smooth;
 }
 
-.header-container {
+#header-container {
     width: 100%;
     position: fixed;
     height: 50px;
@@ -22,7 +22,7 @@ html {
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #F0EEED;
+    background-color: #79d875;
     overflow-x: hidden;
     transition: 0.8s;
     padding-top: 60px;
@@ -36,6 +36,7 @@ html {
     color: #03989e;
     display: block;
     transition: 0.3s;
+    font-family: "Figtree";
 }
   
 .sidenav a:hover {
@@ -50,6 +51,10 @@ html {
     font-size: 36px;
     margin-left: 50px;
     padding: 4px 20px;
+}
+
+.name-sidebar {
+    color: #03989e;
 }
 
 .open-button {
@@ -67,6 +72,16 @@ html {
     color: white;
     font-size: 22px;
     padding: 14px;
+}
+
+.name a {
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease-in-out;
+}
+
+.name a:hover {
+    color: black;
 }
 
 .fa-bars {
@@ -101,10 +116,18 @@ html {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.gradient-test {
+    background: #03989e;
+    height: 1px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .logo {
     width: 100%;
     padding: 10px;
-    max-width: 400px;
+    max-width: 1200px;
     justify-content: center;
 }
 
@@ -151,6 +174,9 @@ html {
 }
 
 .sub-header {
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 0.5rem;
 }
 
 .map-container {
@@ -176,12 +202,34 @@ html {
     border-radius: 5px;
 }
 
+/* .background-grey {
+    background-color: red;
+} */
+
 #tutoring-section {
     padding: 30px 0;
 }   
 
 .tutoring-title {
     text-align: center;
+    margin-bottom: 40px;
+}
+
+.tutoring-type {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 30px;
+    margin-top: 5px;
+    background-color: rgba(3, 158, 86, 0.6);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px;
+    width: 300px;
+    margin: auto;
+    transition: 0.5s ease-in-out;
+}
+
+.tutoring-type:hover {
+    transform: scale(1.1);
 }
 
 .fa-chalkboard-user {
@@ -189,7 +237,7 @@ html {
 }
 
 .tutoring-title h2 {
-    margin-bottom: 0;
+    margin-bottom: 10px;
     font-size: 35px;
 }
 
@@ -197,11 +245,23 @@ html {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    row-gap: 1.2rem;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: "Figtree";
+}
+
+.tutoring-type ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    font-size: 22px;
 }
 
 .tutoring-type h4 {
     text-align: center;
     margin-bottom: 0;
+    margin-top: 5px;
 }
 
 #residential {
@@ -238,6 +298,16 @@ html {
 .testimonials-container {
     padding: 0 20px;
     text-align: left;
+}
+
+.testimonials-name {
+    border-left: 1px solid rgba(3, 152, 158, 0);
+    padding-left: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.testimonials-name:hover {
+    border-left: 1px solid rgba(3, 152, 158, 1);
 }
 
 .testimonials-name h4 {
@@ -342,6 +412,18 @@ html {
     color: #03989e;
 }
 
+.footer-container {
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(3, 152, 158,0.7);
+    box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.6);
+    display: flex;
+}
+
+.footer-content {
+    text-align: center;
+    color: white;
+}
 
 @media screen and (min-width: 600px){
     .programme-container {
@@ -371,5 +453,12 @@ html {
     .map {
         max-height: 600px;
         box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.6);
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .tutoring-box {
+        flex-direction: row;
+        max-width: 1200px;
     }
 }

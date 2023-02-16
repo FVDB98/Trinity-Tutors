@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap" rel="stylesheet">        
+        <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/normalise.css">
         <link rel="stylesheet" href="assets/css/main.css">
         <script src="https://kit.fontawesome.com/a4c76bf040.js" crossorigin="anonymous"></script>
@@ -23,13 +24,15 @@
             <a href="#">Calender</a>
             <a href="#">Gallery</a>
         </div>
-        <div class="header-container">
-            <div class="name">Trinity House Tutors</div>
+        <div id="header-container">
+            <div class="name">
+                <a href=""><i class="fa-solid fa-house"></i> Trinity House Tutors</a>
+            </div>
             <span class="open-button" style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fa-solid fa-bars fa-xl"></i></span>
         </div>
         <div class="logo-container">
-            <img class="logo" src="assets/images/Logo.jpg">
-        </div>
+            <img class="logo" src="assets/images/book-home-logo-design.png">
+        </div> 
         <section class="home-box">
             <section class="information-container">
                 <article class="contact">
@@ -53,80 +56,82 @@
             </article>
         </section>
 
-        <section id="tutoring-section">
-            <div class="tutoring-title">
-                <h2>Tutoring <i class="fa-solid fa-chalkboard-user"></i></h2>
-            </div>
-            <section class="tutoring-box">
-                <article class="tutoring-type">
-                    <h4>In Person</h4>
-                    <ul>
-                        <li>One on one</li>
-                        <li>Private groups</li>
-                    </ul>
-                </article>
-                <article class="tutoring-type">
-                    <h4>Online</h4>
-                    <ul>
-                        <li>Individuals</li>
-                        <li>Private Groups</li>
-                    </ul>
-                </article>
-                <article class="tutoring-type">
-                    <h4>Residential</h4>
-                    <ul>
-                        <li>Total immsersion</li>
-                        <li>Homestay</li>
-                    </ul>
-                </article>
+        <section class="background-grey">
+            <section id="tutoring-section">
+                <div class="tutoring-title">
+                    <h2>Tutoring <i class="fa-solid fa-chalkboard-user"></i></h2>
+                </div>
+                <section class="tutoring-box">
+                    <article class="tutoring-type">
+                        <h4>In Person</h4>
+                        <ul>
+                            <li>One on one</li>
+                            <li>Private groups</li>
+                        </ul>
+                    </article>
+                    <article class="tutoring-type" style="background-color: rgba(3, 75, 158, 0.6);">
+                        <h4>Online</h4>
+                        <ul>
+                            <li>Individuals</li>
+                            <li>Private Groups</li>
+                        </ul>
+                    </article>
+                    <article class="tutoring-type" style="background-color: rgba(3, 152, 158, 0.6);">
+                        <h4>Residential</h4>
+                        <ul>
+                            <li>Total immsersion</li>
+                            <li>Homestay</li>
+                        </ul>
+                    </article>
+                </section>
             </section>
-        </section>
-        <div class="gradient"></div>
-        <section id="testimonials">
-            <div class="testimonials-title">
-                <h2>Testimonials <i class="fa-solid fa-comments"></i></h2>
-            </div>
-            <section class="testimonials-container">
-                <article class="testimonials-body">
-                    <div class="testimonials-name">
-                        <h4>Roseli, Brazil</h4>
-                        <div class="testimonials-content">
-                            <p>"Moira is not only an excellent teacher, but also is a person you can talk to as a friend. She's nice, kind, patient and she is always happy to help. It's a pleasure to have her as a teacher!"</p>
+            <div class="gradient"></div>
+            <section id="testimonials">
+                <div class="testimonials-title">
+                    <h2>Testimonials <i class="fa-solid fa-comments"></i></h2>
+                </div>
+                <section class="testimonials-container">
+                    <article class="testimonials-body">
+                        <div class="testimonials-name">
+                            <h4>Roseli, Brazil</h4>
+                            <div class="testimonials-content">
+                                <p>"Moira is not only an excellent teacher, but also is a person you can talk to as a friend. She's nice, kind, patient and she is always happy to help. It's a pleasure to have her as a teacher!"</p>
+                            </div>
                         </div>
-                    </div>
-                </article>
-                <article class="testimonials-body">
-                    <div class="testimonials-name">
-                        <h4>Natacha, Spain</h4>
-                        <div class="testimonials-content">
-                            <p>"I promise Moira's lessons are very enjoyable, helpful and varied. What I like most about Moira as a teacher is her enthusiasm to teach at the same time being supportive to cover my learning needs. I can tell she makes a big effort in order for her students to understand the contents through learning by doing. I think that method is the clue to keep students motivated to continue taking her classes. Strongly recommended!"</p>
+                    </article>
+                    <article class="testimonials-body">
+                        <div class="testimonials-name" style="font-family:Figtree">
+                            <h4>Natacha, Spain</h4>
+                            <div class="testimonials-content">
+                                <p>"I promise Moira's lessons are very enjoyable, helpful and varied. What I like most about Moira as a teacher is her enthusiasm to teach at the same time being supportive to cover my learning needs. I can tell she makes a big effort in order for her students to understand the contents through learning by doing. I think that method is the clue to keep students motivated to continue taking her classes. Strongly recommended!"</p>
+                            </div>
                         </div>
-                    </div>
-                </article>
-                <article class="testimonials-body">
-                    <div class="testimonials-name">
-                        <h4>Cristina, Spain</h4>
-                        <div class="testimonials-content">
-                            <p>"I can assure anyone that Moira is a really good teacher, always willing to help her students. She is kind and attentive when needed. She always makes the lessons as enjoyable as possible, using a wide range of activities which suit the way I learn. I highly recommend her!!!"</p>
+                    </article>
+                    <article class="testimonials-body">
+                        <div class="testimonials-name">
+                            <h4>Cristina, Spain</h4>
+                            <div class="testimonials-content">
+                                <p>"I can assure anyone that Moira is a really good teacher, always willing to help her students. She is kind and attentive when needed. She always makes the lessons as enjoyable as possible, using a wide range of activities which suit the way I learn. I highly recommend her!!!"</p>
+                            </div>
                         </div>
-                    </div>
-                </article>
-                <article class="testimonials-body">
-                    <div class="testimonials-name">
-                        <h4>Beatriz, Spain</h4>
-                        <div class="testimonials-content">
-                            <p>"I really liked Moira's lessons because of they were funny and useful. Moira is friendly and kind. She speaks clearly, so it is easy understand each word in order to repeat them to learn properly the pronunciation."</p>
+                    </article>
+                    <article class="testimonials-body">
+                        <div class="testimonials-name" style="font-family:Figtree">
+                            <h4>Beatriz, Spain</h4>
+                            <div class="testimonials-content">
+                                <p>"I really liked Moira's lessons because they were funny and useful. Moira is friendly and kind. She speaks clearly, so it is easy understand each word in order to repeat them to learn properly the pronunciation."</p>
+                            </div>
                         </div>
-                    </div>
-                </article>
-                <article class="testimonials-body">
-                    <div class="testimonials-name">
-                        <h4>Sandrine, France</h4>
-                        <div class="testimonials-content">
-                            <p>I attend online classes taught by Moira, and I can testify that she is an excellent teacher. Before starting I have to admit that I was not very enthusiastic because my level of English is very low and I did not feel very comfortable because I have a sense of ridicule that is too high. But from the first moment I felt very comforted by her, because she is a very empathetic and patient teacher. And above all that she really cares about making herself understood and carrying out tasks to facilitate learning. And very important too, she is so polite, nice and kind. </p>
+                    </article>
+                    <article class="testimonials-body">
+                        <div class="testimonials-name">
+                            <h4>Sandrine, France</h4>
+                            <div class="testimonials-content">
+                                <p>I attend online classes taught by Moira, and I can testify that she is an excellent teacher. Before starting I have to admit that I was not very enthusiastic because my level of English is very low and I did not feel very comfortable because I have a sense of ridicule that is too high. But from the first moment I felt very comforted by her, because she is a very empathetic and patient teacher. And above all that she really cares about making herself understood and carrying out tasks to facilitate learning. And very important too, she is so polite, nice and kind. </p>
+                            </div>
                         </div>
-                    </div>
-                </article>
+                    </article>
+                </section>
             </section>
         </section>
         <div class="gradient"></div>
@@ -199,6 +204,15 @@
                 </article>
             </section>
         </section>
+        <footer class="footer-container">
+            <article class="footer-content">
+                <h2>Moira Tait</h2>
+                <h3>Trinity House Tutors</h3>
+                <p>+44 1904 400583</p>
+                <p>+44 7761 288356</p>
+                <p><a class="email" href="mailto:trinityhousetutors@gmail.com">trinityhousetutors@gmail.com</a></p>
+            </article>
+        </footer>
     </body>
     <script src="assets/javascript/main-nav-bar.js"></script>
 </html>
