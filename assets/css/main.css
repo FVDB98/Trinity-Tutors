@@ -125,6 +125,7 @@ html {
     background-color: rgba(3, 152, 158,0.7);
     max-width: 1200px;
     margin: auto;
+    margin-bottom: 20px;
     padding: 20px;
     box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.6);
 }
@@ -144,12 +145,37 @@ html {
     justify-content: center;
 }
 
-.email {
-    color: black;
+.information-container p a {
+    text-decoration: none;
 }
 
-.email:hover {
-    color: #03989e;
+.email {
+    color: black;
+    width: 200px;
+    display: flex;
+    margin: auto;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.fa-envelope {
+        padding: 7px 10px 7px 7px;
+}
+
+.email-container {
+    background: white;
+    border: 1px solid black;
+    width: 200px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    transition: 0.4s ease-in-out;
+}
+
+.email-container:hover {
+    background-color: #03273d;
+    color: white;
+    transform: scale(1.1);
 }
 
 .fa-address-book {
@@ -342,7 +368,7 @@ html {
     text-align: center;
     max-width: 300px;
     margin: auto;
-    color: white;
+    color: #03989e;
 }
 
 .programme-container {
@@ -351,7 +377,7 @@ html {
 }
 
 .programme-inner {
-    background-color: rgba(3, 152, 158,0.7);
+    background-color: #f5f2f2;
     border-radius: 2px;
     display: flex;
     flex-direction: column;
